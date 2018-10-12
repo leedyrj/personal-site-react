@@ -1,7 +1,7 @@
 import React from "react";
 import { FaPlus, FaTag } from "react-icons/lib/fa";
 
-import Coffee from "../assets/images/portfolio/coffee.jpg";
+import Coffee from "../assets/images/portfolio/Macro.png";
 import Console from "../assets/images/portfolio/console.jpg";
 import Judah from "../assets/images/portfolio/judah.jpg";
 import IntoTheLight from "../assets/images/portfolio/into-the-light.jpg";
@@ -14,7 +14,8 @@ const Portfolio = () => (
   <section id="portfolio">
     <div className="row">
       <div className="twelve columns collapsed">
-        <h1>Check Out Some of My Works.</h1>
+        <h1>Projects.</h1>
+
 
         <div
           id="portfolio-wrapper"
@@ -26,12 +27,9 @@ const Portfolio = () => (
                 <img alt="" src={Coffee} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
-                    <h5>Coffee</h5>
-                    <p>Illustrration</p>
+                    <h5>MACROmanager</h5>
+                    <p>Find recipes based on macronutrients</p>
                   </div>
-                </div>
-                <div className="link-icon">
-                  <FaPlus />
                 </div>
               </a>
             </div>
@@ -54,7 +52,7 @@ const Portfolio = () => (
             </div>
           </div>
 
-          <div className="columns portfolio-item">
+          {/*<div className="columns portfolio-item">
             <div className="item-wrap">
               <a href="#modal-03" title="">
                 <img alt="" src={Judah} />
@@ -154,7 +152,7 @@ const Portfolio = () => (
                 </div>
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 
